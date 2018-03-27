@@ -4,7 +4,7 @@ class String
 
   def sentence?(str)
     str.ends_with?('.')
-    
+    binding.pry
   end
 
   def question?
