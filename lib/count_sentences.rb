@@ -16,8 +16,10 @@ class String
   end
 
   def count_sentences
-    self.split
+    sentence_array = self.split
     i = 0
-    binding.pry
-  end
+    while i < 0
+      i+=1
+    end
+  i
 end
