@@ -16,6 +16,8 @@ class String
   end
 
   def count_sentences
-
+    self.split
+    i = 0
+    binding.pry
   end
 end
