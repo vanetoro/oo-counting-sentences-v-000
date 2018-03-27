@@ -23,3 +23,4 @@ class String
     end
   i
 end
+end
