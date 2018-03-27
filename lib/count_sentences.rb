@@ -2,8 +2,7 @@ require 'pry'
 
 class String
 
-  def sentence?(str)
-    binding.pry
+  def sentence
     str.ends_with?('.')
     
   end
