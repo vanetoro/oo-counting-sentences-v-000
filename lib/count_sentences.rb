@@ -16,11 +16,11 @@ class String
   end
 
   def count_sentences
-    sentence_array = self.split
-    i = 0
-    while i < 0
-      i+=1
-    end
-  i
-end
+      sentence_array = self.split
+      i = 0
+      while i < 0
+        i+=1
+      end
+    i
+  end
 end
