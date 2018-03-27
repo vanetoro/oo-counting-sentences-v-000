@@ -3,8 +3,9 @@ require 'pry'
 class String
 
   def sentence?(str)
-    str.ends_with?('.')
     binding.pry
+    str.ends_with?('.')
+    
   end
 
   def question?
